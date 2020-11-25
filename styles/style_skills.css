@@ -1,0 +1,39 @@
+body {
+  background-color: #e1e1e1;
+  font-family: "Raleway", sans-serif;
+}
+
+section {
+  width: 80vw;
+  margin: auto;
+}
+
+.section-title h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+#skill-box-container {
+  display: flex;
+  justify-content: center;
+  min-width: 200px;
+}
+
+.skill-box {
+  width: 200px;
+  padding: 0 40px;
+  text-align: center;
+  font-size: 24px;
+}
+
+#middle-box {
+  border-right: 4px dotted #ffc53d;
+  border-left: 4px dotted #ffc53d;
+}
+
+.skill-name {
+  color: rgba(255, 197, 61, 1);
+  font-weight: 700;
+  line-height: 1;
+}
