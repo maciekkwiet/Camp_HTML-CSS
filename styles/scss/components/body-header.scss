@@ -3,6 +3,7 @@
 @import '../fonts';
 
 .body-header {
+    position: relative;
     min-height: calc(100vh - #{$navbar-height});
     min-width: 100%;
 
@@ -15,8 +16,8 @@
         position: absolute;
         top: 0;
         left: 0;
-        min-width: 100%;
-        min-height: calc(100vh - #{$navbar-height});
+        height: 100%;
+        width: 100%;
         mix-blend-mode: lighten;
     }
 
@@ -64,3 +65,17 @@
         }
     }
 } 
+
+@media screen and (max-width: 500px) {
+    .body-header {
+        .title {
+            h1 {
+                font-size: 50px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    }
+}
