@@ -16,7 +16,9 @@ section {
 #skill-box-container {
   display: flex;
   justify-content: center;
-  min-width: 200px;
+  width: auto;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  padding: 30px;
 }
 
 .skill-box {
