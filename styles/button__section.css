@@ -31,6 +31,7 @@ html {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 480px;
+    padding: 0 6px;
     width: 100%;
 }
 
@@ -45,5 +46,18 @@ html {
     text-align: center;
 }
 
-
-
+@media (max-width: 460px) {
+    .title__button {
+        width: 200px;
+    }
+    .title__button--cv {
+        margin-top: 20px;
+    }
+    .title__container {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        max-width: 200px;
+        margin: 0 auto;
+    }
+}
