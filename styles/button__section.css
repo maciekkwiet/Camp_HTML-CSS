@@ -3,7 +3,6 @@
 }
 
 .title {
-    background: #FFF;
     margin-bottom: 52px;
     margin-top: 38px;
 }
@@ -44,7 +43,7 @@
     .title__button {
         width: 200px;
     }
-    .title__button--cv {
+    div button:nth-child(2) {
         margin-top: 20px;
     }
     .title__container {
