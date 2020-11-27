@@ -1,0 +1,15 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+section {
+  width: 60vw;
+  height: auto;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+}
