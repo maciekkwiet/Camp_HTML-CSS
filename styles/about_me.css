@@ -1,0 +1,50 @@
+.about__me {
+  position: absolute;
+  width: 1341px;
+  height: 430px;
+  left: 0px;
+  top: 900px;
+}
+
+.gray__bg {
+  position: absolute;
+  width: 980px;
+  height: 430px;
+  left: 0px;
+  top: 900px;
+  background-color: #fafaff;
+  /* background-color: coral; */
+}
+
+.gray__bg.title {
+  width: 202px;
+  height: 29px;
+  left: -48px;
+  top: 0px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: #222222;
+}
+
+.main {
+  position: absolute;
+  width: 1241px;
+  height: 280px;
+  left: 100px;
+  top: 974px;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+}
+
+.main.person__img.img {
+}
+
+.main.person__data {
+}
+
+.main.person__description {
+}
