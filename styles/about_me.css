@@ -42,8 +42,6 @@
 
 #person__img {
   position: absolute;
-  /* width: 105.6px;
-  height: 97.01px; */
   left: 52.5px;
   top: 52px;
 }
@@ -92,7 +90,6 @@
 #desc {
   border-left: 4px dashed #ffc53d;
   padding-left: 26px;
-  padding-right: 59px;
 }
 
 .main .person__description {
@@ -110,4 +107,5 @@
   align-items: center;
   letter-spacing: 0.04em;
   flex-wrap: wrap;
+  margin-right: 59px;
 }
