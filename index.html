@@ -1,24 +1,69 @@
 <!DOCTYPE html>
 <html lang="pl">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>TITLE</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css" type="text/css" media="all" />
-</head>
+    <script defer src="https://kit.fontawesome.com/7157ae1e66.js" crossorigin="anonymous"></script>
+  </head>
 
-<body>
-    <header></header>
+  <body>
+    <header class="body-header">
+      <div class="title">
+          <h1>Welcome!</h1>
+          <p>My name is Designer.</p>
+      </div>
+      <div class="social-media">
+          <a href="https://twitter.com">
+              <i class="fab fa-twitter social-icons"></i>
+          </a>
+          <a href="https://linkedin.com">
+              <i class="fab fa-linkedin-in social-icons"></i>
+          </a>
+          <a href="https://github.com">
+              <i class="fab fa-github social-icons"></i>
+          </a>
+          <a href="https://www.facebook.com/">
+              <i class="fab fa-facebook-f social-icons facebook-icon"></i>
+          </a>
+      </div>
+      <div class="layer"></div>
+    </header>
     <section class="title">
-        <p class="title__paragraph">I am happy to help you with any problem!</p>
+        <h2 class="title__paragraph">I am happy to help you with any problem!</h2>
         <div class="title__container">
             <button class="title__button">Contact me!</button>
             <button class="title__button">Check my CV</button>
         </div>
     </section>
+    <section id="skills">
+      <div class="section-title">
+        <h2>Skills</h2>
+      </div>
+      <div id="skill-box-container">
+        <div class="skill-box">
+          <img class="skill-img" src="images/UX-UI.png" alt="UX-UI" />
+          <p class="skill-name">UX/UI</p>
+          <p class="skill-description">Figma</p>
+        </div>
+        <div class="skill-box" id="middle-box">
+          <img class="skill-img" src="images/Front_End.png" alt="Front_End" />
+          <p class="skill-name">Front End</p>
+          <p class="skill-description">HTML, CSS, JavaScript</p>
+        </div>
+        <div class="skill-box">
+          <img class="skill-img" src="images/Back_End.png" alt="Back_End" />
+          <p class="skill-name">Back End</p>
+          <p class="skill-description">PHP, Node.js</p>
+        </div>
+      </div>
+    </section>
     <footer></footer>
-</body>
+  </body>
 </html>
