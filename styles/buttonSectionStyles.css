@@ -1,10 +1,10 @@
- html {
+html {
     box-sizing: border-box;
 }
 
 .title {
-    margin-bottom: 52px;
-    margin-top: 38px;
+    margin: 38px 0 52px 0;
+    width: 100%;
 }
 
 .title__button {
@@ -31,7 +31,7 @@
     justify-content: space-between;
     margin: 0 auto;
     max-width: 480px;
-    padding: 0 6px;
+    padding: 0;
     width: 100%;
 }
 
@@ -41,12 +41,13 @@
     font-size: 36px;
     font-style: normal;
     font-weight: 400;
+    height: 100%;
     letter-spacing: 0.02em;
-    padding: 0 6px;
+    padding: 0;
     text-align: center;
 }
 
-@media (max-width: 460px) {
+@media (max-width: 520px) {
     .title__button {
         width: 200px;
     }
