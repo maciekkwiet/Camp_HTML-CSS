@@ -42,14 +42,16 @@
 
 #person__img {
   position: absolute;
-  width: 105.6px;
-  height: 97.01px;
+  /* width: 105.6px;
+  height: 97.01px; */
   left: 52.5px;
   top: 52px;
 }
 
 #img {
   border-radius: 50%;
+  width: 105.6px;
+  height: 97.01px;
 }
 
 .main .person__data {
