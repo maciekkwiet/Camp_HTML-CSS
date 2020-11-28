@@ -40,12 +40,12 @@
   box-sizing: border-box;
 }
 
-.main .person__img {
+#person__img {
   position: absolute;
-  min-width: 105.6px;
+  width: 105.6px;
   height: 97.01px;
-  left: -52.55px;
-  /* top: calc(50% - 97.01px / 2 + 137.98px); */
+  left: 52.5px;
+  top: 52px;
 }
 
 #img {
@@ -56,11 +56,8 @@
   position: absolute;
   width: 274px;
   height: 181px;
-  left: 314px;
-  right: 753px;
+  left: 214px;
   top: 50px;
-  /* margin-right: 28px; */
-  display: inline;
 }
 
 .person__data .data__title {
@@ -80,6 +77,10 @@
   color: #222222;
 }
 
+#data__title {
+  font-weight: 700;
+}
+
 #data__answer {
   color: #ffc53d;
   font-family: "Ubuntu", sans-serif;
@@ -89,13 +90,14 @@
 #desc {
   border-left: 4px dashed #ffc53d;
   padding-left: 26px;
+  padding-right: 59px;
 }
 
 .main .person__description {
   position: absolute;
   max-width: 639px;
   height: 280px;
-  left: 643px;
+  left: 523px;
   color: #222222;
   font-family: "Raleway", sans-serif;
   font-style: normal;
