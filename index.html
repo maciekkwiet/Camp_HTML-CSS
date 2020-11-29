@@ -81,7 +81,7 @@
         <div class="form__container">
           <p>
             <label class="form__label" for="name">
-              <input class="form__input" type="text" name="name" id="name" placeholder="Name" required>
+              <input class="form__input" type="text" name="name" id="name" placeholder="Name" pattern="[a-zA-Z]{3,}" required>
             </label> 
           </p>
           <p>
@@ -91,15 +91,15 @@
           </p>
           <p>
             <label class="form__label" for="topic">
-              <input class="form__input" type="text" name="topic" id="topic" placeholder="Topic">
+              <input class="form__input" type="text" name="topic" id="topic" placeholder="Topic" required>
             </label>
           </p>
           <p>
             <label class="form__label" for="comments">
-              <textarea class="form__comments" id="comments">Message</textarea>
+              <textarea class="form__comments" id="comments" placeholder="Message"></textarea>
             </label>
           </p>
-          <input class="form__button form__button--send" type="submit" value="Send">
+          <input class="form__button" type="submit" value="Send">
         </div>
       </form>
     </section>

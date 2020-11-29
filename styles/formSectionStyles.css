@@ -1,0 +1,37 @@
+html {
+    box-sizing: border-box;
+}
+
+.form__container {
+    max-width: 640px;
+    width: 100%;
+}
+
+.message__title {
+    font-weight: 700;
+    font-size: 36px;
+    margin: 33px 0 25px 0;
+}
+
+.form__container p {
+    margin-bottom: 17px;
+}
+
+.form__container p:nth-child(4) {
+    margin-bottom: 31px;
+}
+
+.form__input[name="name"] {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.form__input, .form__comments {
+    width: 100%;
+    border-radius: 15px;
+    background: #FAFAFF;
+    padding: 12px 24px;
+    font-size: 18px;
+    color: #A0A0A0;
+    border: none;
+    outline: none;
+}
