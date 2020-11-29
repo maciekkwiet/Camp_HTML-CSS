@@ -1,25 +1,8 @@
-/* .about__me {
-  position: absolute;
-  width: 1341px;
-  height: 430px;
-  left: 0px;
-  top: 900px;
-} */
-
 .gray__bg {
-  /* position: absolute;
-  width: 980px;
-  height: 430px; */
-  /* left: 0px;
-  top: 900px; */
   background-color: #fafaff;
 }
 
-.gray__bg .title {
-  /* width: 202px;
-  height: 29px; */
-  margin-left: 152px;
-  /* top: 0px; */
+.gray__bg  > h2 {
   font-family: "Ubuntu", sans-serif;
   font-size: 32px;
   font-style: normal;
@@ -29,48 +12,23 @@
   color: #222222;
 }
 
-.main {
-  /* position: absolute; */
-  /* width: 1241px;
-  height: 280px; */
-  /* left: 100px;
-  top: 974px; */
-
+.main__box {
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
   display: flex;
-  /* box-sizing: border-box; */
   align-items: center;
   justify-content: space-between;
 }
 
-#img {
-  /* position: absolute; */
-  /* left: 52.5px;
-  top: 52px; */
-  border-radius: 50%;
-  width: 50%;
-  height: 50%;
-  /* width: 105.6px;
-  height: 97.01px; */
+.main__box > div > img {
+  border-radius: 50%; 
 }
 
-.main .person__data {
-  width: 50%;
-  /* position: absolute;
-  width: 274px;
-  height: 181px;
-  left: 214px;
-  top: 50px; */
+.person__data {
+  width: 60%;
+  margin-left: 20px;
 }
 
-.person__data .data__title {
-  display: flex;
-  align-items: center;
-  /* position: absolute;
-  width: 186px;
-  height: 29px;
-  left: 314px;
-  top: 1024px; */
+.person__data > p {
   font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -80,35 +38,21 @@
   color: #222222;
 }
 
-#data__title {
-  font-weight: 700;
-}
-
-#data__answer {
+.person__data > p > span {
   color: #ffc53d;
   font-family: "Ubuntu", sans-serif;
   font-weight: 700;
 }
 
-#desc {
-  border-left: 4px dashed #ffc53d;
-  padding-left: 26px;
-}
-
-.main .person__description {
-  /* position: absolute;
-  max-width: 639px;
-  height: 280px;
-  left: 523px; */
+.person__description {
+  width: 100%;
   color: #222222;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 31px;
-  /* display: flex; */
-  align-items: center;
   letter-spacing: 0.04em;
-  flex-wrap: wrap;
-  margin-right: 59px;
+  border-left: 4px dashed #ffc53d;
+  padding-left: 26px;
 }
