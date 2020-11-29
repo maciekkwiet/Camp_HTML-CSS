@@ -1,8 +1,16 @@
-.gray__bg {
+.about__me > div {
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.about__me > div::before {
+  content: '';
+  left: -400px;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
   position: absolute;
-  width: 70vw;
-  height: 420px;
-  left: 0px;
   background-color: #fafaff;
 }
 
@@ -20,8 +28,6 @@
 }
 
 .main__box {
-  position: relative;
-  top: 74px;
   background-color: white;
   box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.05);
   display: flex;

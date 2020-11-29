@@ -5,8 +5,8 @@ body {
 
 section {
   width: 80vw;
-  height: auto;
-  margin: auto;
+  height: 100%;
+  margin: 100px;
 }
 
 h2 {
