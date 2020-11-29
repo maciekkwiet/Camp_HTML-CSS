@@ -2,7 +2,7 @@ body {
     background-color: #E1E1E1;
 }
 
-nav.navbar {
+nav .dropdown {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -11,32 +11,46 @@ nav.navbar {
     font-weight: bold;
     color: #515151;
     width: 90%;
-    margin: 48px auto 0px;
+    margin: 44px auto 0px;
+    color: #515151;
 }
 
-nav.navbar ul {
+.dropbtn {
+    display: none;
+    background-color:  #E1E1E1; ;
+}
+
+nav .dropdown ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 60%;
+    width: 70%;
     max-width: 400px;
+    list-style: none;
 }
 
-nav.navbar ul li {
-    list-style: none;
+nav .dropdown ul li a {
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.02em;
+    padding: 8px;
+    text-decoration: none;
+    color: #515151;
 }
 
-nav.navbar div.logo {
+nav .dropdown ul li a:hover {
+    background-color: #cec9c9;;
+    
+}
+
+nav .dropdown div.logo {
     margin-left: 7%;
     display: flex;
     justify-items: flex-end;
     align-items: center;
 }
 
-nav.navbar .logo .logo-text {
+nav .dropdown .logo .logo-text {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.15em;
@@ -44,17 +58,46 @@ nav.navbar .logo .logo-text {
 }
 
 @media only screen and (max-width: 600px) {
-    nav.navbar div.logo {
+    nav .dropdown div.logo {
+        display: none;
+    }
+    .dropbtn {
+        display: inline-block;
+    }
+    .dropdown {
+        width: auto;
+    }
+    .dropbtn img {
+        height: 46px;
+        width: auto;
+    }
+
+    nav .dropdown ul {
         display: none;
     }
 
-    nav.navbar ul {
-        width: 100%;
-        max-width: 100%;
-        padding: 0;
+    nav .dropdown {
+        width: auto;
+        display: inline-block;
+
     }
 
-    nav.navbar {
-        width: 100%;
+    .dropdown:hover .dropbtn {
+        display: none;
+    }
+
+    .dropdown:hover ul {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .dropdown:hover ul li {
+        padding: 10px;
+    }
+
+    .navbar{
+        display: flex;
+        justify-content: center;
     }
 }
