@@ -3,13 +3,12 @@ body {
 }
 
 section {
-  width: 60vw;
+  width: 80vw;
   height: auto;
   margin: auto;
 }
 
 h2 {
-  font-family: "Ubuntu", sans-serif;
   text-align: center;
   font-weight: 700;
   font-size: 32px;
