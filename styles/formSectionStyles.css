@@ -2,7 +2,7 @@ html {
     box-sizing: border-box;
 }
 
-.form__container {
+.message {
     max-width: 640px;
     width: 100%;
 }
@@ -11,6 +11,20 @@ html {
     font-weight: 700;
     font-size: 36px;
     margin: 33px 0 25px 0;
+}
+
+.form__button {
+    background: linear-gradient(270deg, #FFC53D 14%, #FF9A3D 68.5%);
+    border: none;
+    border-radius: 15px;
+    color: #FFF;
+    cursor: pointer;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 27.5px;
+    outline: none;
+    float: right;
 }
 
 .form__container p {
@@ -35,4 +49,5 @@ html {
     border: none;
     outline: none;
     font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
 }
