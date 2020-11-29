@@ -6,7 +6,7 @@
 
 .about__me > div::before {
   content: '';
-  left: -400px;
+  left: -20%;
   z-index: -1;
   height: 100%;
   width: 100%;
