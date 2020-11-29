@@ -1,10 +1,12 @@
-html {
+* {
     box-sizing: border-box;
 }
 
 .message {
-    max-width: 640px;
+    max-width: 664px;
+    min-width: 234px;
     width: 100%;
+    padding: 0 48px;
 }
 
 .message__title {
@@ -27,12 +29,12 @@ html {
     float: right;
 }
 
-.form__container p {
-    margin-bottom: 17px;
+.form div {
+    margin-bottom: 16px;
 }
 
-.form__container p:nth-child(4) {
-    margin-bottom: 31px;
+.form div:nth-child(4) {
+    margin-bottom: 32px;
 }
 
 .form__input[name="name"] {
