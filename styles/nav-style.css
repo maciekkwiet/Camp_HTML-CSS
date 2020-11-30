@@ -2,7 +2,7 @@ body {
     background-color: #E1E1E1;
 }
 
-nav .dropdown {
+nav div.dropdown {
     box-sizing: border-box;
     display: flex;
     justify-content: space-between;
@@ -15,12 +15,12 @@ nav .dropdown {
     color: #515151;
 }
 
-.dropbtn {
+button.dropbtn {
     display: none;
     background-color:  #E1E1E1; ;
 }
 
-nav .dropdown ul {
+nav div.dropdown ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -29,7 +29,7 @@ nav .dropdown ul {
     list-style: none;
 }
 
-nav .dropdown ul li a {
+nav div.dropdown ul li a {
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.02em;
@@ -38,19 +38,19 @@ nav .dropdown ul li a {
     color: #515151;
 }
 
-nav .dropdown ul li a:hover {
+nav div.dropdown ul li a:hover {
     background-color: #cec9c9;;
     
 }
 
-nav .dropdown div.logo {
+nav div.dropdown div.logo {
     margin-left: 7%;
     display: flex;
     justify-items: flex-end;
     align-items: center;
 }
 
-nav .dropdown .logo .logo-text {
+nav div.dropdown div.logo .logo-text {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.15em;
@@ -58,28 +58,27 @@ nav .dropdown .logo .logo-text {
 }
 
 @media only screen and (max-width: 600px) {
-    nav .dropdown div.logo {
+    nav div.dropdown div.logo {
         display: none;
     }
-    .dropbtn {
+    button.dropbtn {
         display: inline-block;
     }
-    .dropdown {
+    div.dropdown {
         width: auto;
     }
-    .dropbtn img {
+    button.dropbtn img {
         height: 46px;
         width: auto;
     }
 
-    nav .dropdown ul {
+    nav div.dropdown ul {
         display: none;
     }
 
-    nav .dropdown {
+    nav div.dropdown {
         width: auto;
         display: inline-block;
-
     }
 
     .dropdown:hover .dropbtn {
