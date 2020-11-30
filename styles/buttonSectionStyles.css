@@ -31,7 +31,6 @@ html {
     justify-content: space-between;
     margin: 0 auto;
     max-width: 480px;
-    padding: 0;
     width: 100%;
 }
 
@@ -43,7 +42,6 @@ html {
     font-weight: 400;
     height: 100%;
     letter-spacing: 0.02em;
-    padding: 0;
     text-align: center;
 }
 
