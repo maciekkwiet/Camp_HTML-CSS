@@ -32,10 +32,6 @@
     margin-bottom: 32px;
 }
 
-.form__input[name="name"] {
-    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
 .form__input, .form__comments {
     background: #FAFAFF;
     border: none; 
@@ -46,6 +42,10 @@
     outline: none;
     padding: 12px 24px;
     width: 100%;
+}
+
+.form__input:focus, .form__comments:focus {
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .message {
