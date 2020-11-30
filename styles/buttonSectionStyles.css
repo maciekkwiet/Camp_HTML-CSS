@@ -19,6 +19,14 @@
     min-height: 50px;
     min-width: 200px;
     outline: none;
+    transition: transform .2s ease-in-out;
+}
+
+.title__button:hover {
+    background: white;
+    border: 1px solid #FFC53D;
+    color: #FFC53D;
+    transform: scale(1.02);
 }
 
 .title__container {
