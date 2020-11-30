@@ -1,13 +1,13 @@
-# Projekt HTML & CSS — Wizytówka / Portfolio
+# :boom: Projekt HTML & CSS — Wizytówka / Portfolio
 > Pierwszy projekt CodersCamp 2020
 
 Projekt interfejsu strony - wizytówki wykonany na podstawie wyglądu udostępnionego w sekcji linki.
 
-## Wersja Live
+## 🔥 Wersja Live
 
 https://maciekkwiet.github.io/Camp_HTML-CSS/
 
-## Instalacja
+## 💻 Instalacja
 
 Aby uruchomić potrzbujemy sklonować repozytorium.
 
@@ -16,13 +16,13 @@ git pull https://github.com/maciekkwiet/Camp_HTML-CSS.git
 ```
 Następnie uruchamiamy index.html w swojej przeglądarce.
 
-## Wykorzystane technologie
+## 💻 Wykorzystane technologie
 
-Strona wykorzystuje następne zagadnienia:
+Strona została stworzona z wykorzystaniem:
 * HTML5
 * CSS3
 * SCSS
 
-## Linki
+## :link: Linki
 
 - Projekt graficzny: https://www.figma.com/file/WHtiMfcNHt4tc7mDamNBYa/CodersCamp2020.Project.HTML-CSS.BusinessCard?node-id=0%3A1
