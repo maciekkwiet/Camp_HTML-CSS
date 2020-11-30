@@ -5,6 +5,7 @@
   padding: 30px;
   margin: 0 20px;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .skill-box {
@@ -36,4 +37,31 @@
 .skill-img {
   align-self: center;
   margin: 0 0 40px 0;
+}
+
+@media (max-width: 650px) {
+  .section {
+    padding: 0;
+    margin: 0;
+  }
+
+  .skill-box {
+    padding: 20px 0;
+    flex-basis: 150px;
+  }
+
+  #skill-box-container {
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  #middle-box {
+    border: none;
+    border-top: 4px dotted #ffc53d;
+    border-bottom: 4px dotted #ffc53d;
+  }
 }
