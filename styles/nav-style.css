@@ -39,8 +39,7 @@ nav div.dropdown ul li a {
 }
 
 nav div.dropdown ul li a:hover {
-    background-color: #cec9c9;;
-    
+    background-color: #cec9c9;;  
 }
 
 nav div.dropdown div.logo {
@@ -61,12 +60,15 @@ nav div.dropdown div.logo .logo-text {
     nav div.dropdown div.logo {
         display: none;
     }
-    button.dropbtn {
+
+    nav button.dropbtn {
         display: inline-block;
     }
-    div.dropdown {
+
+    nav div.dropdown {
         width: auto;
     }
+
     button.dropbtn img {
         height: 46px;
         width: auto;
@@ -81,21 +83,21 @@ nav div.dropdown div.logo .logo-text {
         display: inline-block;
     }
 
-    .dropdown:hover .dropbtn {
+    nav .dropdown:hover .dropbtn {
         display: none;
     }
 
-    .dropdown:hover ul {
+    nav .dropdown:hover ul {
         display: flex;
         flex-direction: column;
         width: auto;
     }
 
-    .dropdown:hover ul li {
+    nav .dropdown:hover ul li {
         padding: 10px;
     }
 
-    .navbar{
+    nav {
         display: flex;
         justify-content: center;
     }
