@@ -3,10 +3,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta
-      name="description"
-      content="Portfolio stworzone na potrzeby kursu CodersCamp."
-    />
+    <meta name="description" content="Portfolio stworzone na potrzeby kursu CodersCamp."/>
     <meta name="keywords" content="portfolio, css, html" />
     <meta http-equiv="content-language" content="pl" />
     <meta name="rating" content="general" />
@@ -17,10 +14,8 @@
     <title>Portfolio - CodersCamp</title>
     <link rel="stylesheet" href="styles/main.css" type="text/css" media="all" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css" type="text/css" media="all" />
     <script
       defer
@@ -120,6 +115,32 @@
           alt="pokój dzienny"
         />
       </div>
+    </section>
+    <section class="message">
+      <h3 class="message__title">Let's start!</h3>
+      <form class="form" action="#" method="#">
+          <div class="form__wrapper">
+            <label class="form__label" for="name">
+              <input class="form__input" type="text" name="name" id="name" placeholder="Name" pattern="[a-zA-Z]{3,}" required>
+            </label> 
+          </div>
+          <div class="form__wrapper">
+            <label class="form__label" for="mail">
+              <input class="form__input" type="email" name="mail" id="mail" placeholder="Your e-mail adress" required>
+            </label>
+          </div>
+          <div class="form__wrapper">
+            <label class="form__label" for="topic">
+              <input class="form__input" type="text" name="topic" id="topic" placeholder="Topic" required>
+            </label>
+          </div>
+          <div class="form__wrapper">
+            <label class="form__label" for="comments">
+              <textarea class="form__comments" id="comments" placeholder="Message" rows="6"></textarea>
+            </label>
+          </div>
+          <input class="form__button" type="submit" value="Send">
+      </form>
     </section>
     <footer></footer>
   </body>
