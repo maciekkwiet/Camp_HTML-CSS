@@ -1,8 +1,8 @@
-* {
-  box-sizing: border-box;
-}
 section.contactUs {
   width: 100%;
+}
+section.contactUs * {
+  box-sizing: border-box;
 }
 section.contactUs > h2 {
   font-family: "Ubuntu", sans-serif;
@@ -56,9 +56,6 @@ section.contactUs > h2 {
   font-family: "Ubuntu", sans-serif;
   line-height: 25px;
   letter-spacing: 0.02em;
-}
-.contactUs__paragraph:nth-of-type(2) span {
-  font-weight: 700;
 }
 
 .contactUs__socials {
