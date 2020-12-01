@@ -77,6 +77,10 @@
 }
 
 @media screen and (max-width: 900px) {
+  .gray__bg > h2 {
+    padding-left: 70px;
+  }
+
   .main__box {
     flex-wrap: wrap;
     justify-content: space-around;
