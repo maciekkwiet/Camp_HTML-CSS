@@ -23,9 +23,12 @@ h2 {
   color: #fff;
 }
 
+.portfolio__imgContainer {
+  position: relative;
+}
+
 .portfolio__imgContainer:nth-child(1) {
   grid-column: 1 / span 9;
-  position: relative;
 }
 .portfolio__imgContainer:nth-child(2) {
   grid-column: 10 / span 7;
@@ -38,7 +41,6 @@ h2 {
 }
 .portfolio__imgContainer:nth-child(5) {
   grid-column: 8 / span 18;
-  position: relative;
 }
 .portfolio__overlay {
   position: absolute;
@@ -54,9 +56,7 @@ h2 {
   opacity: 0;
   transition: 0.5s;
 }
-
-.portfolio__imgContainer:nth-child(1) h3,
-.portfolio__imgContainer:nth-child(5) h3 {
+.portfolio__imgContainer h3 {
   position: absolute;
   top: 0%;
   left: 5%;
@@ -65,21 +65,19 @@ h2 {
   line-height: 47px;
   letter-spacing: 0.02em;
 }
-.portfolio__imgContainer:nth-child(1) p,
-.portfolio__imgContainer:nth-child(5) p {
+.portfolio__imgContainer p {
   position: absolute;
   font-size: 16px;
   top: 20%;
   left: 5%;
 }
-.portfolio__imgContainer:nth-child(1) p {
+.portfolio__imgContainer p {
   width: 90%;
 }
-.portfolio__imgContainer:nth-child(5) p {
+.portfolio__imgContainer:last-child p {
   width: 40%;
 }
-.portfolio__imgContainer:nth-child(1) button,
-.portfolio__imgContainer:nth-child(5) button {
+.portfolio__imgContainer button {
   position: absolute;
   top: 45%;
   left: 5%;
@@ -97,25 +95,21 @@ h2 {
   transition: 0.5s;
 }
 
-.portfolio__imgContainer:nth-child(1):hover > div,
-.portfolio__imgContainer:nth-child(5):hover > div {
+.portfolio__imgContainer:hover > div {
   opacity: 1;
 }
-.portfolio__imgContainer:nth-child(1) button:hover,
-.portfolio__imgContainer:nth-child(5) button:hover {
+.portfolio__imgContainer button:hover {
   background-image: none;
   background-color: #fff;
   color: #ffc53d;
   border: 1px solid #ffc53d;
 }
 @media (max-width: 1280px) {
-  .portfolio__imgContainer:nth-child(1) h3,
-  .portfolio__imgContainer:nth-child(5) h3 {
+  .portfolio__imgContainer h3 {
     top: -8%;
     font-size: 35px;
   }
-  .portfolio__imgContainer:nth-child(1) p,
-  .portfolio__imgContainer:nth-child(5) p {
+  .portfolio__imgContainer p {
     top: 18%;
     font-size: 14px;
   }
@@ -140,62 +134,39 @@ h2 {
     grid-column: 1 / -1;
     order: 5;
   }
-  .portfolio__imgContainer:nth-child(1) h3,
-  .portfolio__imgContainer:nth-child(5) h3 {
+  .portfolio__imgContainer h3 {
     top: 0;
   }
-  .portfolio__imgContainer:nth-child(1) p {
+  .portfolio__imgContainer p {
     top: 20%;
     font-size: 16px;
   }
-  .portfolio__imgContainer:nth-child(5) p {
+  .portfolio__imgContainer:last-child p {
     top: 21%;
-    font-size: 16px;
-  }
-  .portfolio__imgContainer:nth-child(1) button,
-  .portfolio__imgContainer:nth-child(5) button {
-    width: 10vw;
-    height: 5vw;
-    line-height: 5vw;
-  }
-
-  .portfolio__imgContainer:nth-child(1) h3,
-  .portfolio__imgContainer:nth-child(5) h3 {
-    top: -5%;
-  }
-  .portfolio__imgContainer:nth-child(1) p {
-    top: 17%;
-    font-size: 16px;
-  }
-  .portfolio__imgContainer:nth-child(5) p {
-    top: 19%;
     font-size: 16px;
     width: 50%;
   }
-  .portfolio__imgContainer:nth-child(1) button,
-  .portfolio__imgContainer:nth-child(5) button {
+  .portfolio__imgContainer button {
     width: 10vw;
     height: 5vw;
     line-height: 5vw;
   }
 }
 @media (max-width: 860px) {
-  .portfolio__imgContainer:nth-child(1) h3,
-  .portfolio__imgContainer:nth-child(5) h3 {
+  .portfolio__imgContainer h3 {
     top: -5%;
     font-size: 25px;
   }
-  .portfolio__imgContainer:nth-child(1) p {
+  .portfolio__imgContainer p {
     top: 25%;
     font-size: 14px;
   }
-  .portfolio__imgContainer:nth-child(5) p {
+  .portfolio__imgContainer:last-child p {
     top: 30%;
     font-size: 14px;
     width: 70%;
   }
-  .portfolio__imgContainer:nth-child(1) button,
-  .portfolio__imgContainer:nth-child(5) button {
+  .portfolio__imgContainer button {
     width: 20vw;
     height: 5vw;
     line-height: 5vw;
@@ -208,26 +179,25 @@ h2 {
   .portfolio__container > .portfolio__imgContainer {
     grid-column: 1/-1;
   }
-  .portfolio__imgContainer:nth-child(1) h3 {
+  .portfolio__imgContainer h3 {
     top: 0;
     font-size: 40px;
   }
-  .portfolio__imgContainer:nth-child(5) h3 {
+  .portfolio__imgContainer:last-child h3 {
     top: -15%;
     font-size: 30px;
   }
-  .portfolio__imgContainer:nth-child(1) p {
-    top: 20%;
+  .portfolio__imgContainer p {
+    top: 22%;
     font-size: 18px;
   }
-  .portfolio__imgContainer:nth-child(5) p {
+  .portfolio__imgContainer:last-child p {
     top: 30%;
     font-size: 14px;
     width: 90%;
   }
 
-  .portfolio__imgContainer:nth-child(1) button,
-  .portfolio__imgContainer:nth-child(5) button {
+  .portfolio__imgContainer button {
     width: 20vw;
     height: 8vw;
     line-height: 8vw;
@@ -235,7 +205,7 @@ h2 {
     border-radius: 8px;
   }
 
-  .portfolio__imgContainer:nth-child(5) button {
+  .portfolio__imgContainer:last-child button {
     top: 70%;
   }
 }
