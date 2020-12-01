@@ -5,7 +5,7 @@
 }
 
 .about__me > div::before {
-  content: '';
+  content: "";
   left: -20%;
   z-index: -1;
   height: 100%;
@@ -74,4 +74,16 @@
   letter-spacing: 0.04em;
   border-left: 4px dashed #ffc53d;
   padding-left: 26px;
+}
+
+@media screen and (max-width: 900px) {
+  .main__box {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+  .person__description {
+    border-top: 4px dashed #ffc53d;
+    border-left: none;
+  }
 }
