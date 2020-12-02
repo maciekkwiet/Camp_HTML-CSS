@@ -24,7 +24,7 @@
   font-weight: bold;
   line-height: 37px;
   letter-spacing: 0.02em;
-  color: #222222;
+  color: #222;
 }
 
 .main__box {
@@ -54,18 +54,17 @@
   font-style: normal;
   line-height: 29px;
   letter-spacing: 0.02em;
-  color: #222222;
+  color: #222;
 }
 
 .person__data > p > span {
   color: #ffc53d;
   font-family: "Ubuntu", sans-serif;
-  font-weight: 700;
 }
 
 .person__description {
   width: 100%;
-  color: #222222;
+  color: #222;
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: normal;
