@@ -6,33 +6,47 @@ nav.navbar {
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     color: #515151;
-    width: 90%;
-    margin: 48px auto 0px;
+    width: 95%;
+    margin: 10px auto 10px;
 }
 
-nav.navbar ul {
+button.dropbtn {
+    display: none;
+    background-color:  #E1E1E1; ;
+}
+
+nav div.dropdown ul {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 60%;
+    width: 100%;
     max-width: 400px;
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
 }
 
-nav.navbar ul li {
-    list-style: none;
+nav div.dropdown ul li a {
     font-size: 18px;
     line-height: 21px;
     letter-spacing: 0.02em;
+    padding: 8px;
+    text-decoration: none;
+    color: #515151;
+    display: block;
+}
+
+nav.navbar ul li a:hover {
+    background-color: #cec9c9;;  
 }
 
 nav.navbar div.logo {
-    margin-left: 7%;
     display: flex;
     justify-items: flex-end;
     align-items: center;
 }
 
-nav.navbar .logo .logo-text {
+nav.navbar div.logo .logo-text {
     font-size: 24px;
     line-height: 28px;
     letter-spacing: 0.15em;
@@ -40,17 +54,47 @@ nav.navbar .logo .logo-text {
 }
 
 @media only screen and (max-width: 600px) {
-    nav.navbar div.logo {
-        display: none;
+
+    nav button.dropbtn {
+        display: inline-block;
     }
 
-    nav.navbar ul {
+    nav div.dropdown {
+        width: auto;
+    }
+
+    button.dropbtn img {
+        height: 30px;
+        width: auto;
+    }
+
+    nav div.dropdown {
+        position: relative;
+        display: block;
+    }
+
+    nav div.dropdown ul {
+        display: none;
+        position: absolute;  
+    }
+
+    nav .dropdown:hover ul {
+        display: flex;
+        flex-direction: column;
+        width: 105px;
+        z-index: 2;
+        margin-top: -39px;
+        margin-left: -50px;
+        background-color: #E1E1E1; 
+    }
+
+    nav .dropdown:hover ul li  {
         width: 100%;
-        max-width: 100%;
-        padding: 0;
+        text-align: center;
     }
 
     nav.navbar {
-        width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
 }
