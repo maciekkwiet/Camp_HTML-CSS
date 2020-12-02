@@ -7,7 +7,7 @@ nav.navbar {
     font-weight: bold;
     color: #515151;
     width: 95%;
-    margin: 10px auto 0px;
+    margin: 10px auto 10px;
 }
 
 button.dropbtn {
@@ -23,6 +23,7 @@ nav div.dropdown ul {
     max-width: 400px;
     list-style: none;
     padding: 0px;
+    margin: 0px;
 }
 
 nav div.dropdown ul li a {
@@ -69,7 +70,7 @@ nav.navbar div.logo .logo-text {
 
     nav div.dropdown {
         position: relative;
-        display: inline-block;
+        display: block;
     }
 
     nav div.dropdown ul {
@@ -80,7 +81,7 @@ nav.navbar div.logo .logo-text {
     nav .dropdown:hover ul {
         display: flex;
         flex-direction: column;
-        width: auto;
+        width: 105px;
         z-index: 2;
         margin-top: -39px;
         margin-left: -50px;
@@ -88,7 +89,6 @@ nav.navbar div.logo .logo-text {
     }
 
     nav .dropdown:hover ul li  {
-        padding: 8px 8px;
         width: 100%;
         text-align: center;
     }
