@@ -155,6 +155,7 @@ section.contactUs > h2 {
   .contactUs__container {
     flex-direction: column;
     height: 150vh;
+    width: 100%;
   }
   .contactUs__polygon {
     top: 100%;
@@ -190,7 +191,7 @@ section.contactUs > h2 {
     right: 10%;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 370px) {
   .contactUs__container {
     flex-direction: column;
     height: 160vh;
