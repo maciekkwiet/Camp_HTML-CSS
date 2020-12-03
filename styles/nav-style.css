@@ -75,7 +75,9 @@ nav.navbar div.logo .logo-text {
 
     nav div.dropdown ul {
         display: none;
-        position: absolute;  
+        position: absolute;
+        top: 78px;
+        border-radius: 10px;  
     }
 
     nav .dropdown:hover ul {
