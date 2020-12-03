@@ -17,6 +17,10 @@
   flex: 0 1 250px;
 }
 
+.section-title{
+  margin-top:65px;
+}
+
 #middle-box {
   border-right: 4px dotted #ffc53d;
   border-left: 4px dotted #ffc53d;

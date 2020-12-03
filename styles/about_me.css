@@ -16,9 +16,8 @@
 
 .gray__bg > h2 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   font-family: "Ubuntu", sans-serif;
-  padding-left: 182px;
   font-size: 32px;
   font-style: normal;
   font-weight: bold;
