@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 900px) {
   .gray__bg > h2 {
-    padding-left: 70px;
+    padding-left: 50px;
   }
 
   .main__box {
@@ -87,5 +87,29 @@
   .person__description {
     border-top: 4px dashed #ffc53d;
     border-left: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .gray__bg > h2 {
+    padding-left: 15px;
+  }
+
+  .person__data {
+    margin-left: 5px;
+    padding-left: 10px;
+  }
+
+  .person__data > p {
+    font-size: 14px;
+  }
+
+  .person__data > p > span {
+    word-wrap: break-word;
+  }
+
+  .main__box > div > img {
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
 }
