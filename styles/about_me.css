@@ -104,6 +104,10 @@
     font-size: 14px;
   }
 
+  .person__description {
+    font-size: 14px;
+  }
+
   .person__data > p > span {
     word-wrap: break-word;
   }
