@@ -158,32 +158,53 @@
           </div>
       </div>
       </section>
-      <section class="message" id="contact">
-      <h3 class="message__title">Let's start!</h3>
-      <form class="form" action="#" method="#">
-          <div class="form__wrapper">
-            <label class="form__label" for="name">
-              <input class="form__input" type="text" name="name" id="name" placeholder="Name" pattern="[a-zA-Z]{3,}" required>
-            </label> 
-          </div>
-          <div class="form__wrapper">
-            <label class="form__label" for="mail">
-              <input class="form__input" type="email" name="mail" id="mail" placeholder="Your e-mail adress" required>
-            </label>
-          </div>
-          <div class="form__wrapper">
-            <label class="form__label" for="topic">
-              <input class="form__input" type="text" name="topic" id="topic" placeholder="Topic" required>
-            </label>
-          </div>
-          <div class="form__wrapper">
-            <label class="form__label" for="comments">
-              <textarea class="form__comments" id="comments" placeholder="Message" rows="6"></textarea>
-            </label>
-          </div>
-          <input class="form__button" type="submit" value="Send">
-      </form>
-    </section>
+      <section class="contactUs" id="contact">
+        <h2>Contact us</h2>
+        <div class="contactUs__container">
+            <div class="contactUs__footer">
+                <img src="./images/send-svg.svg" alt="wyślij wiadomość">
+                <p class="contactUs__paragraph">Please describe your question.<br>Send me a message and I will<br> answer you as soon as possible! </p>
+                <div class="contactUs__socials">
+                  <i class="fab fa-twitter social-icons"></i>
+                  <i class="fab fa-linkedin-in social-icons"></i>
+                  <i class="fab fa-github social-icons"></i>
+                  <i class="fab fa-facebook-f social-icons facebook-icon"></i>
+                </div>
+                <p class="contactUs__paragraph"><strong>Designer<br>
+                    Poland, Wrocław</strong><br>ul. Tęczowa 12/3 50-000<br>
+                    +48 123-456-789<br>
+                    <a href="mailto:night-coding@dev.com">night-coding@dev.com</a>
+                </p>
+                <div class="contactUs__polygon"></div>
+            </div>
+            <div class="contactUs__form">
+              <h3 class="message__title">Let's start!</h3>
+        <form class="form" action="#" method="#">
+            <div class="form__wrapper">
+              <label class="form__label" for="name">
+                <input class="form__input" type="text" name="name" id="name" placeholder="Name" pattern="[a-zA-Z]{3,}" required>
+              </label> 
+            </div>
+            <div class="form__wrapper">
+              <label class="form__label" for="mail">
+                <input class="form__input" type="email" name="mail" id="mail" placeholder="Your e-mail adress" required>
+              </label>
+            </div>
+            <div class="form__wrapper">
+              <label class="form__label" for="topic">
+                <input class="form__input" type="text" name="topic" id="topic" placeholder="Topic" required>
+              </label>
+            </div>
+            <div class="form__wrapper">
+              <label class="form__label" for="comments">
+                <textarea class="form__comments" id="comments" placeholder="Message" rows="6"></textarea>
+              </label>
+            </div>
+            <input class="form__button" type="submit" value="Send">
+        </form>
+            </div>
+        </div>
+        </section>
     <footer></footer>
   </body>
 </html>
